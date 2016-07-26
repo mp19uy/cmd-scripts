@@ -1,6 +1,3 @@
-## Linux Scripts
+## Unix Commands and Scripts
 
-A collection of linux scripts to do a particular task.  
-
-**Youtube Downloader**  (youtube.sh)  
-Download youtube videos from a textfile with links
+A collection of unix commands and scripts to do a particular task.
