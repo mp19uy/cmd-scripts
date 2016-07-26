@@ -58,3 +58,10 @@ You just need to add the video ID to a new line of the file **list**
         clive http://youtube.com/watch?v=$video
     done
 
+
+### Find a replace a string in files
+In a single file:  
+`sed -i 's/STRING_TO_FIND/STRING_TO_REPLACE/g' /file.txt`  
+In a folder:  
+`find /PATH/TO/FOLDER -type f -exec sed -i 's/FIND/REPLACE/g' {} \;`  
+*Credits*: [Brunolinux](http://brunolinux.com/02-The_Terminal/Find_and%20Replace_with_Sed.html)
